@@ -1,0 +1,1 @@
+Get-ADComputer -filter "Name -like '*ssa*'" -Properties Name | FFormat-Table Name | Out-File -filepath d:Scripts\path\filename.txt
